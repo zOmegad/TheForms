@@ -1,19 +1,29 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Usernam:</strong>
-  <%= @user.usernam %>
+<div style="padding-left: 350px;padding-right: 350px;font-size: 20px;">
+<div class="card">
+  <div class="card-header">
+	<div class="card-body">
+<p class="card-text">
+  <strong>Username:</strong>
+  <%= @user.username %>
 </p>
 
-<p>
+<p class="card-text">
   <strong>Email:</strong>
   <%= @user.email %>
 </p>
 
-<p>
+<p class="card-text">
   <strong>Bio:</strong>
   <%= @user.bio %>
 </p>
+</div>
 
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+<div class="card-footer text-muted ">
+<td class ="bg-primary bg-warning btn btn-primary"><%= link_to 'Edit', edit_user_path(@user) %> |</td>
+<td class ="bg-primary bg-warning btn btn-primary"><%= link_to 'Back', users_path %></td>
+</div>
+</div>
+</div>
+</div>
