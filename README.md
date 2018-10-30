@@ -1,25 +1,39 @@
-# README
+# TheForms 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Heroku :
 
-Things you may want to cover:
+Find this app online, hosted by Heroku
+https://theforms.herokuapp.com/users
 
-* Ruby version
+## 📰 My new app, TheForm
 
-* System dependencies
+You can create user, look for all users, edit users , add bio and deletes users
 
-* Configuration
+**After cloning the repository, make sure to do :**
 
-* Database creation
+```sh
+$ bundle install
+$ rails db:migrate
+$ rails db:seed (If you want a DDB, made with Faker)
+```
+This will install all the dependencies needed for the exercises and create the database.
 
-* Database initialization
 
-* How to run the test suite
+## 💎 Gems
 
-* Services (job queues, cache servers, search engines, etc.)
+in this project we use : 
 
-* Deployment instructions
+```sh
+source "https://rubygems.org"
+rails '5.2.1'
+gem 'faker'
+```
 
-* ...
-# TheForms
+## :european_post_office: The Strasbourg Crew 💪
+@zOmegad, @BrokenPirate, @mxrch, @Runefire32 and @OwwllMan
+
+<hr>
+
+***Made for TheHackingProject bootcamp.***
+
+***> www.thehackingproject.org***
